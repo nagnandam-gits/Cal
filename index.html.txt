@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<body style="font-family:Arial;text-align:center;background:#f2f2f2;padding-top:40px;">
+
+
+<input id="c" type="text" readonly
+style="width:220px;height:40px;font-size:20px;text-align:right;margin-bottom:10px;">
+
+
+<br>
+
+
+<button style="width:50px;height:50px;" onclick="c.value+='7'">7</button>
+<button style="width:50px;height:50px;" onclick="c.value+='8'">8</button>
+<button style="width:50px;height:50px;" onclick="c.value+='9'">9</button>
+<button style="width:50px;height:50px;" onclick="c.value+='/'">÷</button>
+<br>
+
+
+<button style="width:50px;height:50px;" onclick="c.value+='4'">4</button>
+<button style="width:50px;height:50px;" onclick="c.value+='5'">5</button>
+<button style="width:50px;height:50px;" onclick="c.value+='6'">6</button>
+<button style="width:50px;height:50px;" onclick="c.value+='*'">×</button>
+<br>
+
+
+<button style="width:50px;height:50px;" onclick="c.value+='1'">1</button>
+<button style="width:50px;height:50px;" onclick="c.value+='2'">2</button>
+<button style="width:50px;height:50px;" onclick="c.value+='3'">3</button>
+<button style="width:50px;height:50px;" onclick="c.value+='-'">−</button>
+<br>
+
+
+<button style="width:50px;height:50px;" onclick="c.value='';">C</button>
+<button style="width:50px;height:50px;" onclick="c.value+='0'">0</button>
+<button style="width:50px;height:50px;" onclick="c.value=eval(c.value)">=</button>
+<button style="width:50px;height:50px;" onclick="c.value+='+'">+</button>
+
+
+</body>
+</html>
